@@ -1,0 +1,3676 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 0,
+  "links": [],
+  "panels": [
+    {
+      "description": "",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 10,
+        "x": 6,
+        "y": 0
+      },
+      "id": 3,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"text-align:center; font-family:system-ui;\">\n\n  <img src=\"https://cdn-icons-png.flaticon.com/512/267/267205.png\" width=\"120\" style=\"margin-bottom:10px;\">\n\n  <div style=\"font-size:20px; font-weight:600; color:#1f2937; margin-top:6px;\">\n    Plant Growth Monitoring and Visualization\n  </div>\n\n  <div style=\"font-size:14px; color:#4b5563; margin-top:2px;\">\n    Mung Beans Sprouts\n  </div>\n\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 8
+      },
+      "id": 2,
+      "panels": [],
+      "title": "Environmental Condition & Plant Growth Summary",
+      "type": "row"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 9,
+        "x": 0,
+        "y": 9
+      },
+      "id": 6,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Indoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 8–17 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 11,
+        "x": 9,
+        "y": 9
+      },
+      "id": 8,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Outdoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 19–28 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 0,
+        "y": 13
+      },
+      "id": 29,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Temperature</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 3,
+        "y": 13
+      },
+      "id": 30,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Humidity</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 6,
+        "y": 13
+      },
+      "id": 31,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Growth</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 13
+      },
+      "id": 32,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Temperature</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 13,
+        "y": 13
+      },
+      "id": 33,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Humidity</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 16,
+        "y": 13
+      },
+      "id": 34,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Growth</div>\n     \n \n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "bottom"
+            },
+            "width": 80,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 0,
+        "y": 16
+      },
+      "id": 5,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(temperature), 2), ' °C') AS max_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(temperature), 2), ' °C') AS max_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "right"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 3,
+        "y": 16
+      },
+      "id": 9,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "left"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 6,
+        "y": 16
+      },
+      "id": 10,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(height), 2), ' cm') AS max_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(height), 2), ' cm') AS max_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 16
+      },
+      "id": 17,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(temperature), 2), ' °C') AS max_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(temperature), 2), ' °C') AS max_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 13,
+        "y": 16
+      },
+      "id": 21,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 16,
+        "y": 16
+      },
+      "id": 22,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MAX(height), 2), ' cm') AS max_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MAX(height), 2), ' cm') AS max_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Maximum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 0,
+        "y": 19
+      },
+      "id": 4,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(temperature), 2), ' °C') AS min_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(temperature), 2), ' °C') AS min_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 3,
+        "y": 19
+      },
+      "id": 11,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(humidity), 2), '%') AS min_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(humidity), 2), '%') AS min_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 6,
+        "y": 19
+      },
+      "id": 26,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(height), 2), ' cm') AS min_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(height), 2), ' cm') AS min_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 19
+      },
+      "id": 18,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(temperature), 2), ' °C') AS min_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(temperature), 2), ' °C') AS min_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 13,
+        "y": 19
+      },
+      "id": 23,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(humidity), 2), '%') AS min_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(humidity), 2), '%') AS min_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 16,
+        "y": 19
+      },
+      "id": 14,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(MIN(height), 2), ' cm') AS min_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(MIN(height), 2), ' cm') AS min_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Minimum",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 0,
+        "y": 22
+      },
+      "id": 1,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(temperature), 2), ' °C') AS avg_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(temperature), 2), ' °C') AS avg_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 3,
+        "y": 22
+      },
+      "id": 12,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 6,
+        "y": 22
+      },
+      "id": 15,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(height), 2), ' cm') AS avg_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(height), 2), ' cm') AS avg_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 22
+      },
+      "id": 19,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(temperature), 2), ' °C') AS avg_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(temperature), 2), ' °C') AS avg_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 13,
+        "y": 22
+      },
+      "id": 24,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(humidity), 2), '%') AS avg_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 16,
+        "y": 22
+      },
+      "id": 27,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT CONCAT(ROUND(AVG(height), 2), ' cm') AS avg_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT CONCAT(ROUND(AVG(height), 2), ' cm') AS avg_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Average",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 0,
+        "y": 25
+      },
+      "id": 7,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(temperature - (\n            SELECT AVG(temperature) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' °C')  AS sd_sample_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(temperature - (\n            SELECT AVG(temperature) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' °C')  AS sd_sample_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 3,
+        "y": 25
+      },
+      "id": 13,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(humidity - (\n            SELECT AVG(humidity) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),'%')  AS sd_sample_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(humidity - (\n            SELECT AVG(humidity) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),'%')  AS sd_sample_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 6,
+        "y": 25
+      },
+      "id": 16,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(height - (\n            SELECT AVG(height) \n            FROM growth_observation \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' cm')  AS sd_sample_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(height - (\n            SELECT AVG(height) \n            FROM growth_observation \n            WHERE treatment = 'indoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' cm')  AS sd_sample_growth\nFROM growth_observation\nWHERE treatment = 'indoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 25
+      },
+      "id": 20,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(temperature - (\n            SELECT AVG(temperature) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' °C')  AS sd_sample_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(temperature - (\n            SELECT AVG(temperature) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' °C')  AS sd_sample_temperature\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 13,
+        "y": 25
+      },
+      "id": 25,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(humidity - (\n            SELECT AVG(humidity) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),'%')  AS sd_sample_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(humidity - (\n            SELECT AVG(humidity) \n            FROM sensor_mbeans_logging \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),'%')  AS sd_sample_humidity\nFROM sensor_mbeans_logging\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "center",
+            "cellOptions": {
+              "type": "pill"
+            },
+            "filterable": false,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "minWidth": 50,
+            "tooltip": {
+              "field": "avg_temperature",
+              "placement": "auto"
+            },
+            "width": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 16,
+        "y": 25
+      },
+      "id": 28,
+      "options": {
+        "cellHeight": "lg",
+        "enablePagination": false,
+        "showHeader": false
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "queryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(height - (\n            SELECT AVG(height) \n            FROM growth_observation \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' cm')  AS sd_sample_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT \n    CONCAT(ROUND(SQRT(\n        SUM(POWER(height - (\n            SELECT AVG(height) \n            FROM growth_observation \n            WHERE treatment = 'outdoor-light'\n        ), 2)) \n        / (COUNT(*) - 1)\n    ), 2),' cm')  AS sd_sample_growth\nFROM growth_observation\nWHERE treatment = 'outdoor-light';\n",
+          "refId": "A",
+          "timeColumns": [
+            "time",
+            "ts"
+          ]
+        }
+      ],
+      "title": "Standard Dev.",
+      "type": "table"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 28
+      },
+      "id": 35,
+      "panels": [],
+      "title": "Trend Over 10 Days",
+      "type": "row"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 0,
+        "y": 29
+      },
+      "id": 36,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Indoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 8–17 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 10,
+        "y": 29
+      },
+      "id": 37,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Outdoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 19–28 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "Temperature (°C)",
+            "axisPlacement": "auto",
+            "fillOpacity": 50,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 5
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points+lines"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 0,
+        "y": 33
+      },
+      "id": 40,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "logged_at"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "temperature"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, temperature AS temperature FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND temperature IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day) ORDER BY timestamp_ ASC;",
+          "queryType": "table",
+          "rawQueryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, temperature AS temperature FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND temperature IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day) ORDER BY timestamp_ ASC;",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Temperature by Observation Time",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "Temperature (°C)",
+            "axisPlacement": "auto",
+            "fillOpacity": 50,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 5
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points+lines"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 10,
+        "y": 33
+      },
+      "id": 43,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "logged_at"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "temperature"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, temperature AS temperature FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND temperature IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('noon') AND day_of_experiment IN (10) ORDER BY timestamp_ ASC;",
+          "queryType": "table",
+          "rawQueryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, temperature AS temperature FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND temperature IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day) ORDER BY timestamp_ ASC;",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Temperature by Observation Time",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "Humidity (%)",
+            "axisPlacement": "auto",
+            "fillOpacity": 50,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 5
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points+lines"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 0,
+        "y": 43
+      },
+      "id": 42,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "logged_at"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "humidity"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, humidity AS humidity FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND humidity IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('noon') AND day_of_experiment IN (10) ORDER BY timestamp_ ASC;",
+          "queryType": "table",
+          "rawQueryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, humidity AS humidity FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND humidity IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day) ORDER BY timestamp_ ASC;",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Humidity by Observation Time",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "Humidity (%)",
+            "axisPlacement": "auto",
+            "fillOpacity": 50,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 4
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points+lines"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "temperature"
+            },
+            "properties": []
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 10,
+        "y": 43
+      },
+      "id": 41,
+      "options": {
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "logged_at"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "humidity"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, humidity AS humidity FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND humidity IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('noon') AND day_of_experiment IN (10) ORDER BY timestamp_ ASC;",
+          "queryType": "table",
+          "rawQueryText": "SELECT REPLACE(timestamp_, ' ', 'T') || '+09:00' AS logged_at, humidity AS humidity FROM sensor_mbeans_logging WHERE timestamp_ IS NOT NULL AND humidity IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day) ORDER BY timestamp_ ASC;",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Humidity by Observation Time",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "fillOpacity": 80,
+            "gradientMode": "scheme",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "morning_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "green",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "noon_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "yellow",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "afternoon_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "orange",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "day_of_experiment"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Day of experiment"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "morning_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "noon_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "afternoon_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 0,
+        "y": 53
+      },
+      "id": 44,
+      "options": {
+        "barRadius": 0.1,
+        "barWidth": 0.95,
+        "fullHighlight": false,
+        "groupWidth": 0.7,
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "orientation": "auto",
+        "showValue": "auto",
+        "stacking": "none",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        },
+        "xField": "day_of_experiment",
+        "xTickLabelRotation": 0,
+        "xTickLabelSpacing": 0
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    day_of_experiment,\n    MAX(CASE WHEN observation_time = 'morning' THEN height END) AS morning_height,\n    MAX(CASE WHEN observation_time = 'noon' THEN height END) AS noon_height,\n    MAX(CASE WHEN observation_time = 'afternoon' THEN height END) AS afternoon_height\nFROM growth_observation\nWHERE day_of_experiment BETWEEN 1 AND 10 AND treatment='indoor-light'\nGROUP BY day_of_experiment\nORDER BY day_of_experiment;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    day_of_experiment,\n    MAX(CASE WHEN observation_time = 'morning' THEN height END) AS morning_height,\n    MAX(CASE WHEN observation_time = 'noon' THEN height END) AS noon_height,\n    MAX(CASE WHEN observation_time = 'afternoon' THEN height END) AS afternoon_height\nFROM growth_observation\nWHERE day_of_experiment BETWEEN 1 AND 10 AND treatment='indoor-light'\nGROUP BY day_of_experiment\nORDER BY day_of_experiment;\n",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Plant Growth by Observation Time",
+      "type": "barchart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "fillOpacity": 80,
+            "gradientMode": "scheme",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "morning_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "green",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "noon_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "yellow",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "afternoon_height"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "orange",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "day_of_experiment"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Day of experiment"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "morning_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "noon_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "afternoon_height"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Plant Growth (cm)"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 10,
+        "x": 10,
+        "y": 53
+      },
+      "id": 45,
+      "options": {
+        "barRadius": 0.1,
+        "barWidth": 0.95,
+        "fullHighlight": false,
+        "groupWidth": 0.7,
+        "legend": {
+          "calcs": [
+            "min",
+            "max",
+            "mean",
+            "stdDev"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "orientation": "auto",
+        "showValue": "auto",
+        "stacking": "none",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        },
+        "xField": "day_of_experiment",
+        "xTickLabelRotation": 0,
+        "xTickLabelSpacing": 0
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    day_of_experiment,\n    MAX(CASE WHEN observation_time = 'morning' THEN height END) AS morning_height,\n    MAX(CASE WHEN observation_time = 'noon' THEN height END) AS noon_height,\n    MAX(CASE WHEN observation_time = 'afternoon' THEN height END) AS afternoon_height\nFROM growth_observation\nWHERE day_of_experiment BETWEEN 1 AND 10 AND treatment='outdoor-light'\nGROUP BY day_of_experiment\nORDER BY day_of_experiment;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    day_of_experiment,\n    MAX(CASE WHEN observation_time = 'morning' THEN height END) AS morning_height,\n    MAX(CASE WHEN observation_time = 'noon' THEN height END) AS noon_height,\n    MAX(CASE WHEN observation_time = 'afternoon' THEN height END) AS afternoon_height\nFROM growth_observation\nWHERE day_of_experiment BETWEEN 1 AND 10 AND treatment='outdoor-light'\nGROUP BY day_of_experiment\nORDER BY day_of_experiment;\n",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Daily Plant Growth by Observation Time",
+      "type": "barchart"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 63
+      },
+      "id": 47,
+      "panels": [],
+      "title": "Correlation Analysis",
+      "type": "row"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 0,
+        "y": 64
+      },
+      "id": 48,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Indoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 8–17 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 10,
+        "y": 64
+      },
+      "id": 49,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"max-width:520px;margin:12px auto;padding:16px;border-radius:12px;background:linear-gradient(135deg,#fbfdff,#f3f8ff);box-shadow:0 6px 18px rgba(31,41,55,0.06);font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;\">\n  <div style=\"display:flex;align-items:center;gap:12px;\">\n    <div style=\"width:56px;height:56px;border-radius:10px;background:#eef6ec;display:flex;align-items:center;justify-content:center;font-size:26px;\">\n      🌱\n    </div>\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#0f172a;line-height:1;\">Outdoor</div>\n      <div style=\"font-size:13px;color:#475569;margin-top:4px;\">Data Collection <span style=\"font-weight:600;color:#0f172a;\">(10 Days: 19–28 November 2025)</span></div>\n    </div>\n  </div>\n</div>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.2.1",
+      "title": "",
+      "transparent": true,
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment, and grouped by logged time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false,
+            "tooltip": {
+              "placement": "bottom"
+            }
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 10,
+        "x": 0,
+        "y": 68
+      },
+      "id": 50,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n    CASE\n        WHEN correlation_value < 0 THEN 'Negative Correlation: As temperature increases, humidity decreases. As temperature decreases, humidity increases.'\n        WHEN correlation_value = 0 THEN 'No Correlation: Temperature and humidity do not influence each other.'\n        WHEN correlation_value > 0 THEN 'Positive Correlation: As temperature increases, humidity also increases. \n        As temperature decreases, humidity also decreases.'\n        ELSE 'Undefined'\n    END AS correlation_label,\n    CASE\n        WHEN correlation_value > 0 THEN\n            'When the plant is kept indoors, warmer and more humid air can help maintain leaf moisture and prevent the plant from drying out too quickly.'\n        WHEN correlation_value < 0 THEN\n            'When the plant is kept indoors, warmer air that becomes drier can cause the leaves to lose moisture more quickly, making the plant more prone to drying out.'\n        WHEN correlation_value = 0 THEN\n            'When the plant is kept indoors, warmer air does not necessarily make the environment more humid or drier, so the effect on the plant’s leaf moisture is uncertain.'\n        ELSE\n            'No clear interpretation.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(x * y) - SUM(x) * SUM(y)) /\n            (SQRT(\n                (COUNT(*) * SUM(x * x) - SUM(x) * SUM(x)) *\n                (COUNT(*) * SUM(y * y) - SUM(y) * SUM(y))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            temperature AS x,\n            humidity AS y\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND humidity IS NOT NULL\n          AND treatment = 'indoor-light'\n          AND observation_time IN ('$observation_time')\n          AND day_of_experiment IN ($day) GROUP by timestamp_\n    )\n);\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n    CASE\n        WHEN correlation_value < 0 THEN 'Negative Correlation: As temperature increases, humidity decreases. As temperature decreases, humidity increases.'\n        WHEN correlation_value = 0 THEN 'No Correlation: Temperature and humidity do not influence each other.'\n        WHEN correlation_value > 0 THEN 'Positive Correlation: As temperature increases, humidity also increases. \n        As temperature decreases, humidity also decreases.'\n        ELSE 'Undefined'\n    END AS correlation_label,\n    CASE\n        WHEN correlation_value > 0 THEN\n            'When the plant is kept indoors, warmer and more humid air can help maintain leaf moisture and prevent the plant from drying out too quickly.'\n        WHEN correlation_value < 0 THEN\n            'When the plant is kept indoors, warmer air that becomes drier can cause the leaves to lose moisture more quickly, making the plant more prone to drying out.'\n        WHEN correlation_value = 0 THEN\n            'When the plant is kept indoors, warmer air does not necessarily make the environment more humid or drier, so the effect on the plant’s leaf moisture is uncertain.'\n        ELSE\n            'No clear interpretation.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(x * y) - SUM(x) * SUM(y)) /\n            (SQRT(\n                (COUNT(*) * SUM(x * x) - SUM(x) * SUM(x)) *\n                (COUNT(*) * SUM(y * y) - SUM(y) * SUM(y))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            temperature AS x,\n            humidity AS y\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND humidity IS NOT NULL\n          AND treatment = 'indoor-light'\n          AND observation_time IN ('$observation_time')\n          AND day_of_experiment IN ($day) GROUP by timestamp_\n    )\n);\n",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Correlation Between Temperature and Humidity",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment, and grouped by logged time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 10,
+        "x": 10,
+        "y": 68
+      },
+      "id": 53,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": []
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n    CASE\n        WHEN correlation_value < 0 THEN 'Negative Correlation: As temperature increases, humidity decreases. As temperature decreases, humidity increases.'\n        WHEN correlation_value = 0 THEN 'No Correlation: Temperature and humidity do not influence each other.'\n        WHEN correlation_value > 0 THEN 'Positive Correlation: As temperature increases, humidity also increases. \n        As temperature decreases, humidity also decreases.'\n        ELSE 'Undefined'\n    END AS correlation_label,\n    CASE\n        WHEN correlation_value > 0 THEN\n            'When the plant is kept outdoors, warmer and more humid air can help maintain leaf moisture and prevent the plant from drying out too quickly. However, other influencing factors include wind, sunlight, cloud cover, and rainfall.'\n        WHEN correlation_value < 0 THEN\n            'When the plant is kept outdoors, warmer air that becomes drier can cause the leaves to lose moisture more quickly, making the plant more prone to drying out. However, other influencing factors include wind, sunlight, cloud cover, and rainfall.'\n        WHEN correlation_value = 0 THEN\n            'When the plant is kept outdoors, warmer air does not necessarily make the environment more humid or drier, so the effect on the plant’s leaf moisture is uncertain.'\n        ELSE\n            'No clear interpretation.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(x * y) - SUM(x) * SUM(y)) /\n            (SQRT(\n                (COUNT(*) * SUM(x * x) - SUM(x) * SUM(x)) *\n                (COUNT(*) * SUM(y * y) - SUM(y) * SUM(y))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            temperature AS x,\n            humidity AS y\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND humidity IS NOT NULL\n          AND treatment = 'outdoor-light'\n          AND observation_time IN ('$observation_time')\n          AND day_of_experiment IN ($day) GROUP BY timestamp_\n    )\n);\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n    CASE\n        WHEN correlation_value < 0 THEN 'Negative Correlation: As temperature increases, humidity decreases. As temperature decreases, humidity increases.'\n        WHEN correlation_value = 0 THEN 'No Correlation: Temperature and humidity do not influence each other.'\n        WHEN correlation_value > 0 THEN 'Positive Correlation: As temperature increases, humidity also increases. \n        As temperature decreases, humidity also decreases.'\n        ELSE 'Undefined'\n    END AS correlation_label,\n    CASE\n        WHEN correlation_value > 0 THEN\n            'When the plant is kept outdoors, warmer and more humid air can help maintain leaf moisture and prevent the plant from drying out too quickly. However, other influencing factors include wind, sunlight, cloud cover, and rainfall.'\n        WHEN correlation_value < 0 THEN\n            'When the plant is kept outdoors, warmer air that becomes drier can cause the leaves to lose moisture more quickly, making the plant more prone to drying out. However, other influencing factors include wind, sunlight, cloud cover, and rainfall.'\n        WHEN correlation_value = 0 THEN\n            'When the plant is kept outdoors, warmer air does not necessarily make the environment more humid or drier, so the effect on the plant’s leaf moisture is uncertain.'\n        ELSE\n            'No clear interpretation.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(x * y) - SUM(x) * SUM(y)) /\n            (SQRT(\n                (COUNT(*) * SUM(x * x) - SUM(x) * SUM(x)) *\n                (COUNT(*) * SUM(y * y) - SUM(y) * SUM(y))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            temperature AS x,\n            humidity AS y\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND humidity IS NOT NULL\n          AND treatment = 'outdoor-light'\n          AND observation_time IN ('$observation_time')\n          AND day_of_experiment IN ($day) GROUP BY timestamp_\n    )\n);\n",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Relationship Between Temperature and Humidity",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "fillOpacity": 45,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 8
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points"
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "temperature"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Temperature (°C)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "humidity"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Humidity (%)"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 10,
+        "x": 0,
+        "y": 73
+      },
+      "id": 52,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "temperature"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "humidity"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT temperature AS temperature, humidity as humidity FROM sensor_mbeans_logging WHERE temperature IS NOT NULL AND humidity IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day);",
+          "queryType": "table",
+          "rawQueryText": "SELECT temperature AS temperature, humidity as humidity FROM sensor_mbeans_logging WHERE temperature IS NOT NULL AND humidity IS NOT NULL AND treatment = 'indoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day);",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Relationship Between Temperature and Humidity",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Filtered by observation time and day of experiment.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "fillOpacity": 45,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 0,
+            "pointShape": "circle",
+            "pointSize": {
+              "fixed": 8
+            },
+            "pointStrokeWidth": 1,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "show": "points"
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "temperature"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Temperature (°C)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "humidity"
+            },
+            "properties": [
+              {
+                "id": "custom.axisLabel",
+                "value": "Humidity (%)"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 10,
+        "x": 10,
+        "y": 73
+      },
+      "id": 51,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mapping": "auto",
+        "series": [
+          {
+            "frame": {
+              "matcher": {
+                "id": "byIndex",
+                "options": 0
+              }
+            },
+            "x": {
+              "matcher": {
+                "id": "byName",
+                "options": "temperature"
+              }
+            },
+            "y": {
+              "matcher": {
+                "id": "byName",
+                "options": "humidity"
+              }
+            }
+          }
+        ],
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT temperature AS temperature, humidity as humidity FROM sensor_mbeans_logging WHERE temperature IS NOT NULL AND humidity IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('morning') AND day_of_experiment IN (10);",
+          "queryType": "table",
+          "rawQueryText": "SELECT temperature AS temperature, humidity as humidity FROM sensor_mbeans_logging WHERE temperature IS NOT NULL AND humidity IS NOT NULL AND treatment = 'outdoor-light' AND observation_time IN ('$observation_time') AND day_of_experiment IN ($day);",
+          "refId": "A",
+          "timeColumns": [
+            "logged_at"
+          ]
+        }
+      ],
+      "title": "Relationship Between Temperature and Humidity",
+      "type": "xychart"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Aggregated by average of temperature and group by observation time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 0,
+        "y": 84
+      },
+      "id": 54,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": false,
+            "displayName": "interpretation"
+          }
+        ]
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As temperature increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As temperature increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_temp * g.height) - SUM(t.avg_temp) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_temp * t.avg_temp) - SUM(t.avg_temp) * SUM(t.avg_temp)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(temperature) AS avg_temp\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND treatment = 'indoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'indoor-light'\n) AS corr;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As temperature increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As temperature increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_temp * g.height) - SUM(t.avg_temp) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_temp * t.avg_temp) - SUM(t.avg_temp) * SUM(t.avg_temp)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(temperature) AS avg_temp\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND treatment = 'indoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'indoor-light'\n) AS corr;\n",
+          "refId": "A",
+          "timeColumns": []
+        }
+      ],
+      "title": "Correlation Between Temperature and Plant Growth (Overall)",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Aggregated by average of temperature and group by observation time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 10,
+        "x": 10,
+        "y": 84
+      },
+      "id": 56,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As temperature increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As temperature increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_temp * g.height) - SUM(t.avg_temp) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_temp * t.avg_temp) - SUM(t.avg_temp) * SUM(t.avg_temp)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(temperature) AS avg_temp\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND treatment = 'outdoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'outdoor-light'\n) AS corr;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As temperature increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As temperature increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_temp * g.height) - SUM(t.avg_temp) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_temp * t.avg_temp) - SUM(t.avg_temp) * SUM(t.avg_temp)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(temperature) AS avg_temp\n        FROM sensor_mbeans_logging\n        WHERE temperature IS NOT NULL\n          AND treatment = 'outdoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'outdoor-light'\n) AS corr;\n",
+          "refId": "A",
+          "timeColumns": []
+        }
+      ],
+      "title": "Correlation Between Temperature and Plant Growth (Overall)",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Aggregated by average of temperature and group by observation time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 10,
+        "x": 0,
+        "y": 88
+      },
+      "id": 55,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As humidity increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As humidity increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_hum * g.height) - SUM(t.avg_hum) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_hum * t.avg_hum) - SUM(t.avg_hum) * SUM(t.avg_hum)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(humidity) AS avg_hum\n        FROM sensor_mbeans_logging\n        WHERE humidity IS NOT NULL\n          AND treatment = 'indoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'indoor-light'\n) AS corr;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As humidity increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As humidity increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_hum * g.height) - SUM(t.avg_hum) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_hum * t.avg_hum) - SUM(t.avg_hum) * SUM(t.avg_hum)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(humidity) AS avg_hum\n        FROM sensor_mbeans_logging\n        WHERE humidity IS NOT NULL\n          AND treatment = 'indoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'indoor-light'\n) AS corr;\n",
+          "refId": "A",
+          "timeColumns": []
+        }
+      ],
+      "title": "Correlation Between Humidity and Plant Growth (Overall)",
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "frser-sqlite-datasource",
+        "uid": "ff3agwgeh2hvkb"
+      },
+      "description": "Aggregated by average of temperature and group by observation time.",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 10,
+        "x": 10,
+        "y": 88
+      },
+      "id": 57,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": false,
+            "displayName": "interpretation"
+          }
+        ]
+      },
+      "pluginVersion": "12.2.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "frser-sqlite-datasource",
+            "uid": "ff3agwgeh2hvkb"
+          },
+          "queryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As humidity increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As humidity increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_hum * g.height) - SUM(t.avg_hum) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_hum * t.avg_hum) - SUM(t.avg_hum) * SUM(t.avg_hum)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(humidity) AS avg_hum\n        FROM sensor_mbeans_logging\n        WHERE humidity IS NOT NULL\n          AND treatment = 'outdoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'outdoor-light'\n) AS corr;\n",
+          "queryType": "table",
+          "rawQueryText": "SELECT\n    correlation_value,\n\n    CASE\n        WHEN correlation_value > 0 THEN 'Positive Correlation'\n        WHEN correlation_value < 0 THEN 'Negative Correlation'\n        ELSE 'No Correlation'\n    END AS correlation_category,\n\n    CASE\n        WHEN correlation_value > 0 THEN \n            'As humidity increases, plant growth tends to increase.'\n        WHEN correlation_value < 0 THEN \n            'As humidity increases, plant growth tends to decrease.'\n        ELSE\n            'Temperature has little to no linear relationship with plant growth.'\n    END AS interpretation\nFROM (\n    SELECT\n        (\n            (COUNT(*) * SUM(t.avg_hum * g.height) - SUM(t.avg_hum) * SUM(g.height)) /\n            (SQRT(\n                (COUNT(*) * SUM(t.avg_hum * t.avg_hum) - SUM(t.avg_hum) * SUM(t.avg_hum)) *\n                (COUNT(*) * SUM(g.height * g.height) - SUM(g.height) * SUM(g.height))\n            ))\n        ) AS correlation_value\n    FROM (\n        SELECT\n            day_of_experiment,\n            observation_time,\n            AVG(humidity) AS avg_hum\n        FROM sensor_mbeans_logging\n        WHERE humidity IS NOT NULL\n          AND treatment = 'outdoor-light'\n        GROUP BY day_of_experiment, observation_time\n    ) t\n    LEFT JOIN growth_observation g\n           ON t.day_of_experiment = g.day_of_experiment\n          AND t.observation_time = g.observation_time\n    WHERE g.height IS NOT NULL\n      AND g.treatment = 'outdoor-light'\n) AS corr;\n",
+          "refId": "A",
+          "timeColumns": []
+        }
+      ],
+      "title": "Correlation Between Humidity and Plant Growth (Overall)",
+      "type": "table"
+    }
+  ],
+  "preload": false,
+  "schemaVersion": 42,
+  "tags": [],
+  "templating": {
+    "list": [
+      {
+        "allowCustomValue": false,
+        "current": {
+          "text": "3",
+          "value": "3"
+        },
+        "datasource": {
+          "type": "frser-sqlite-datasource",
+          "uid": "ff3agwgeh2hvkb"
+        },
+        "definition": "SELECT DISTINCT day_of_experiment FROM sensor_mbeans_logging ORDER BY day_of_experiment;\n",
+        "label": "Day",
+        "name": "day",
+        "options": [],
+        "query": "SELECT DISTINCT day_of_experiment FROM sensor_mbeans_logging ORDER BY day_of_experiment;\n",
+        "refresh": 1,
+        "regex": "",
+        "sort": 3,
+        "type": "query"
+      },
+      {
+        "allowCustomValue": false,
+        "current": {
+          "text": "morning",
+          "value": "morning"
+        },
+        "datasource": {
+          "type": "frser-sqlite-datasource",
+          "uid": "ff3agwgeh2hvkb"
+        },
+        "definition": "select distinct observation_time from sensor_mbeans_logging",
+        "label": "Observation Time",
+        "name": "observation_time",
+        "options": [],
+        "query": "select distinct observation_time from sensor_mbeans_logging",
+        "refresh": 1,
+        "regex": "",
+        "type": "query"
+      }
+    ]
+  },
+  "time": {
+    "from": "2024-02-08T00:00:00.000Z",
+    "to": "2024-02-08T23:59:59.000Z"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d",
+      "100d"
+    ]
+  },
+  "timezone": "browser",
+  "title": "PlantGrowthViz",
+  "uid": "adhdwfx",
+  "version": 218
+}
