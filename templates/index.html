@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature & Humidity Monitor</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial; text-align: center; background: #f7f9fb; margin: 0; padding: 20px; }
+    h2 { color: #444; }
+    canvas { background: #fff; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-top: 20px; }
+    select, button { padding: 5px 10px; margin: 5px; }
+  </style>
+</head>
+
+
+<body>
+  <h2>🌡️ Automatic Temperature and Humidity Data Logger for Experimental Monitoring 💧</h2>
+
+  <div>
+  <label>Day of Experiment:</label>
+  <select id="day_of_experiment" required>
+    <script>for(let i=1;i<=31;i++){document.write(`<option value="${i}">${i}</option>`);}</script>
+  </select>
+
+  <label>Observation Time:</label>
+  <select id="observation_time" required>
+    <option value="">-Please Select-</option>
+    <option value="morning">Morning</option>
+    <option value="noon">Noon</option>
+    <option value="afternoon">Afternoon</option>
+    <option value="evening">Evening</option>
+  </select>
+
+  <label>Treatment:</label>
+  <select id="treatment" required>
+    <option value="">-Please Select-</option>
+    <option value="indoor-light">Indoor Light</option>
+    <option value="outdoor-light">Outdoor Light</option>
+  </select>
+
+  <label>Recording Duration:</label>
+  <select id="recording_duration" name="recording_duration" required>
+    <option value="">-Please Select-</option>
+    <option value="60">1 minutes</option>
+    <option value="900">15 minutes</option>
+    <option value="1800">30 minutes</option>
+    <option value="3600">1 hour</option>
+    <option value="7200">2 hours</option>
+    <option value="10800">3 hours</option>
+    <option value="21600">6 hours</option>
+    <option value="43200">12 hours</option>
+    <option value="86400">24 hours</option>
+  </select>
+
+    
+
+  <button onclick="startLogging()">Start</button>
+  <span id="status" style="margin-left:10px; color: green;"></span>
+</div>
+
+<canvas id="chart" width="1400" height="500"></canvas>
+
+<script>
+const ctx = document.getElementById('chart').getContext('2d');
+const chart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: [],
+    datasets: [
+      { label: 'Temperature (°C)', data: [], borderColor: 'red', fill: false },
+      { label: 'Humidity (%)', data: [], borderColor: 'blue', fill: false }
+    ]
+  },
+  options: { responsive: true, animation: false }
+});
+
+async function fetchData() {
+  const res = await fetch('/data');
+  const json = await res.json();
+
+  chart.data.labels.push(new Date().toLocaleTimeString());
+  chart.data.datasets[0].data.push(json.temp);
+  chart.data.datasets[1].data.push(json.hum);
+
+  if(chart.data.labels.length > 20){
+    chart.data.labels.shift();
+    chart.data.datasets[0].data.shift();
+    chart.data.datasets[1].data.shift();
+  }
+  chart.update();
+}
+setInterval(fetchData, 2000);
+
+let statusInterval = null;
+
+function startLogging(){
+  const day = document.getElementById('day_of_experiment').value;
+  const obs_time = document.getElementById('observation_time').value;
+  const treatment = document.getElementById('treatment').value;
+  const rec_duration = document.getElementById('recording_duration').value;
+  const statusEl = document.getElementById('status');
+
+  fetch('/start', {
+    method:'POST',
+    headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:`day_of_experiment=${day}&observation_time=${obs_time}&treatment=${treatment}&recording_duration=${rec_duration}`
+  })
+  .then(res => res.json())
+  .then(data => {
+    statusEl.textContent = "Please wait... Logging sensor is running";
+
+    // Mulai polling status backend
+    statusInterval = setInterval(async () => {
+      const res = await fetch('/status');
+      const json = await res.json();
+
+      if(json.running){
+        const minutes = Math.ceil(json.remaining_sec / 60);
+        statusEl.textContent = `Please wait... Logging ${minutes} minutes remains`;
+      } else {
+        statusEl.textContent = "";
+        clearInterval(statusInterval);
+        alert("Logging finished!");
+      }
+    }, 2000);
+  });
+}
+</script>
+
+<button type=""><a href="observations" target = "_blank"  >+ Add Plant Growth Observation</a></button>
+
+</body>
+</html>

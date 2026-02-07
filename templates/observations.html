@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Growth Observations</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f2f2f2; }
+        input, textarea, select { padding: 6px; width: 100%; margin-bottom: 8px; }
+        button { padding: 8px 12px; }
+    </style>
+</head>
+<body>
+    <h2>🌱 Plant Growth Observations - Mung Beans Sprouts </h2>
+
+    <form action="{{ url_for('observation_bp.add_observation') }}" method="POST" enctype="multipart/form-data">
+
+        <label>Height (cm):</label>
+        <input type="number" step="0.1" name="height" required>
+        
+
+        <label>Day of Experiment:</label>
+          <select type="number" name="day_of_experiment" id="day_of_experiment">
+            <script>for(let i=1;i<=31;i++){document.write(`<option value="${i}">${i}</option>`);}</script>
+          </select>
+
+          <label>Observation Time:</label>
+          <select type="text" name="observation_time" id="observation_time"  required>
+            <option value="">-Please Select-</option>
+            <option value="morning">Morning</option>
+            <option value="noon">Noon</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+          </select>
+
+          <label>Treatment:</label>
+          <select type="text" name="treatment"  id="treatment" required>
+            <option value="">-Please Select-</option>
+            <option value="indoor-light">Indoor Light</option>
+            <option value="outdoor-light">Outdoor Light</option>
+          </select>
+
+        <label>Notes:</label>
+        <textarea placeholder="optional" name="notes" rows="2"></textarea>
+        
+        <label>Photo (optional):</label>
+        <input type="file" name="photo" accept="image/*"><br><br>
+
+
+        <button type="submit">Add Observation</button>
+    </form>
+
+    <h3>Existing Records</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Height</th>
+            <th>Day of Experiment</th>
+            <th>Observation Time</th>
+            <th>Treatment</th>
+            <th>Notes</th>
+            <th>Photo</th>
+            <th>Action</th>
+
+
+        </tr>
+        {% for o in observations %}
+        <tr>
+            <td>{{ o.id }}</td>
+            <td>{{ o.height }}</td>
+            <td>{{ o.day_of_experiment }}</td>
+            <td>{{ o.observation_time }}</td>
+            <td>{{ o.treatment }}</td>
+            <td>{{ o.notes }}</td>
+            <td>
+              {% if o.photo_path %}
+                <img src="{{ url_for('static', filename='uploads/' + o.photo_path.split('/')[-1]) }}" width="250">
+              {% else %}
+                No photo
+              {% endif %}
+            </td>
+            
+            <td>
+                  <button type=""><a href="/edit_observation/{{ o.id }}" >Edit</a></button>
+                <form action="/delete_observation/{{ o.id }}" method="POST" style="display:inline;" onsubmit="return confirm('Apakah Anda yakin ingin menghapus data ini?');">
+                  
+                    <button type="submit">Delete</button>
+                </form>
+               
+            </td>
+
+            
+        </tr>
+        {% endfor %}
+    </table>
+<br/>
+<button type=""><a href="/">Back</a></button>
+    
+</body>
+</html>

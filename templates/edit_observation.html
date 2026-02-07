@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Growth Observations</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f2f2f2; }
+        input, textarea, select { padding: 6px; width: 100%; margin-bottom: 8px; }
+        button { padding: 8px 12px; }
+    </style>
+</head>
+<body>
+    <h2>🌱 Plant Growth Observations - Mung Beans Sprouts  </h2>
+
+<h2>Edit Observation</h2>
+<form action="{{ url_for('observation_bp.edit_observation', id=obs.id) }}" method="POST" enctype="multipart/form-data">
+  <label>Height (cm):</label>
+  <input type="number" name="height" value="{{ obs.height }}" required><br>
+
+  <label>Day of Experiment:</label>
+  <input type="number" name="day_of_experiment" value="{{ obs.day_of_experiment }}"><br>
+
+  <label>Observation Time:</label>
+
+  <select type="text" name="observation_time" id="observation_time"  required>
+    <option value="{{ obs.observation_time }}">{{ obs.observation_time }}</option>
+    <option value="">-Please Select-</option>
+    <option value="morning">Morning</option>
+    <option value="noon">Noon</option>
+    <option value="afternoon">Afternoon</option>
+    <option value="evening">Evening</option>
+  </select>
+
+  <label>Treatment:</label>
+
+
+  <select type="text" name="treatment"  id="treatment" required>
+    <option value="{{ obs.treatment }}">{{ obs.treatment }}</option>
+    <option value="">-Please Select-</option>
+    <option value="indoor-light">Indoor Light</option>
+    <option value="outdoor-light">Outdoor Light</option>
+  </select>
+
+  <label>Notes:</label>
+  <textarea name="notes">{{ obs.notes }}</textarea><br>
+
+  <label>Current Photo:</label><br>
+  {% if obs.photo_path %}
+    <img src="{{ '/' + obs.photo_path }}" width="250"><br>
+  {% else %}
+    No photo<br>
+  {% endif %}
+
+  <label>Upload New Photo (optional):</label>
+  <input type="file" name="photo" accept="image/*"><br><br>
+
+
+  <button type="submit">Update</button> <button type=""><a href="/observations">Back</a></button>
+</form>
+
+
+</body>
+</html>
