@@ -18,12 +18,12 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <b> Experimental Scenario </b> <br/>
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/eaf72188-9077-4f6c-8a9d-3e425dd184c5" />
 
-<b> Experimental Setup </b> <br/>
+### Experimental Setup </b> <br/>
 
-### 1. Sensor Connections
+#### 1. Sensor Connections
 <img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" />
 
-### 2. Flash Raspberry Pi 4
+#### 2. Flash Raspberry Pi 4
 - Prepare a microSD card (at least 16GB is recommended) and a card reader.
 - Download Raspberry Pi Imager (according to your PC operating system): https://www.raspberrypi.com/software/
 - Run Raspberry Pi Imager.
