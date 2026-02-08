@@ -47,6 +47,10 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - The output will display the Python version in use, for example:~ $ Python 3.x.x
 
 #### 4. Building Web-based Automatic Sensor Logger for Experimental Monitoring
+
+![diagram-iot-dx-agri (1)](https://github.com/user-attachments/assets/b972c1fb-d3b0-4fe1-853e-2387e43df8d3)
+
+
 - Download project repository:~ $ git clone https://github.com/tresnamf/dx-agriculture-project.git
 - :~ $ cd dx-agriculture-project
 - :~ $ sudo python3 -m venv myenv
@@ -63,6 +67,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <br/><img width="1063" height="711" alt="Screenshot 2026-02-08 at 13 30 57" src="https://github.com/user-attachments/assets/b35ed80f-7ff8-452e-8f94-ec0f9efa24cb" />
 - Also make sure to adjust the database path location (*.sql3) in Python code **db_path=**, which is specified in both _app.py_ and _observation_routes.py_.
 - Test the system by filling out the field of **Day of Experiment, Observation Time, Treatment, and Recording Duration**, then click button **Start** and wait until the recording process is completed.
+
 
   
 
