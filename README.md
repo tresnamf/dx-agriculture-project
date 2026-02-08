@@ -93,11 +93,15 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <img width="800" height="500" alt="Screenshot 2026-02-08 at 15 38 30" src="https://github.com/user-attachments/assets/fff6a52b-8c65-4c6a-8d2f-f9d26b68f3c3" />
 
 - Install SQLite plugin, type:~ $ grafana-cli plugins install frser-sqlite-datasource
-- Check the installed plugin, Open menu > Plugins and data > Plugins
-<img width="800" height="500" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
+- Check the installed plugin, Home > Plugins and data > Plugins
+<br/><img width="800" height="500" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
 - Please navigate to http://localhost:3000/dashboards > New > Import
 - Drag and drop **PlantGrowthViz-1770467082684.json** to Grafana's import dashboard
-<img width="862" height="628" alt="Screenshot 2026-02-08 at 15 44 26" src="https://github.com/user-attachments/assets/f2493637-b201-4e74-a3d3-a73f3d890b04" />
+<br/><img width="862" height="628" alt="Screenshot 2026-02-08 at 15 44 26" src="https://github.com/user-attachments/assets/f2493637-b201-4e74-a3d3-a73f3d890b04" />
+- Click imported dashboard, it will be redirected to dashboard project
+- Please configure first the database connection, navigate to Home > Connections > Data Sources > Add new data sources > Select SQLite and filling the field below
+<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 50 51" src="https://github.com/user-attachments/assets/3f165c5b-2628-43f2-906a-3e5e95330012" />
+
 
 
 
