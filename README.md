@@ -12,6 +12,9 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/caa34eac-b181-437c-b08b-4f154e4dd270" />
 
 
+<b> System Overview </b> <br/>
+<img width="780" height="420" alt="image" src="https://github.com/user-attachments/assets/51081b9e-a1be-4490-8e5f-0f6a78ec0329" />
+
 
 
 
