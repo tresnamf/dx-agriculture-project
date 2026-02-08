@@ -121,7 +121,7 @@ Any contributions are welcome and appreciated.
 <br/> 
 <img width="220" height="67" alt="image" src="https://github.com/user-attachments/assets/b5bf517b-72b3-4273-a1e3-3d732067a780" />
 <br/> 
-Tresna Maulana Fahrudin
+Tresna Maulana Fahrudin (tresnamf@s.okayama-u.ac.jp)
 <br/> 
 PhD Student
 <br/> 
