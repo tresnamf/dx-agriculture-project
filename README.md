@@ -56,12 +56,13 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - :~ $ python3 app.py
 <br/> <img width="563" height="363" alt="Screenshot 2026-02-08 at 13 11 13" src="https://github.com/user-attachments/assets/6850c4dd-3c4c-48b8-b23a-ec1bf9fa7ae3" />
 - Open new tab browser, then type: http://localhost:5000
-<img width="1425" height="848" alt="Screenshot 2026-02-08 at 13 12 40" src="https://github.com/user-attachments/assets/cad1995e-2936-46e4-816a-82bca2e3da53" />
-- Untuk menciptakan dan memanajemen database using SQLite3, open new terminal, type:~ $ sudo apt install sqlitebrowser
+<br/> <img width="1425" height="848" alt="Screenshot 2026-02-08 at 13 12 40" src="https://github.com/user-attachments/assets/cad1995e-2936-46e4-816a-82bca2e3da53" />
+- To create and manage a database using SQLite3, open a new terminal and type:
 - :~ $ sqlitebrowser
-- Tunggu hingga muncul GUI > Open Database > telusuri dan pilih database pada projek ini bernama dx_agri_project.sql3
-<img width="1063" height="711" alt="Screenshot 2026-02-08 at 13 30 57" src="https://github.com/user-attachments/assets/b35ed80f-7ff8-452e-8f94-ec0f9efa24cb" />
-- Sesuaikan juga lokasi definisi **db_path=* yang didefinisikan di app.py dan observation_routes.py 
+- Wait for the GUI to appear > select menu **Open Database** > browse and select the project database named: **dx_agri_project.sql3**
+<br/><img width="1063" height="711" alt="Screenshot 2026-02-08 at 13 30 57" src="https://github.com/user-attachments/assets/b35ed80f-7ff8-452e-8f94-ec0f9efa24cb" />
+- Also make sure to adjust the database path location (*.sql3) in Python code **db_path=**, which is specified in both app.py and observation_routes.py.
+  
 
 
 
