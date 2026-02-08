@@ -62,6 +62,8 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Wait for the GUI to appear > select menu **Open Database** > browse and select the project database named: **dx_agri_project.sql3**
 <br/><img width="1063" height="711" alt="Screenshot 2026-02-08 at 13 30 57" src="https://github.com/user-attachments/assets/b35ed80f-7ff8-452e-8f94-ec0f9efa24cb" />
 - Also make sure to adjust the database path location (*.sql3) in Python code **db_path=**, which is specified in both _app.py_ and _observation_routes.py_.
+- Test the system by filling out the field of **Day of Experiment, Observation Time, Treatment, and Recording Duration**, then click button **Start** and wait until the recording process is completed.
+
   
 
 
