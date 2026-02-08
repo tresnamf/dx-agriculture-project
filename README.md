@@ -111,8 +111,10 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 
 <br/> 
 <br/> 
+<br/> 
+Feel free to fork this repository, submit pull requests, or open issues.
+Any contributions are welcome and appreciated.
 
-=============================================
 <br/> 
 <img width="220" height="67" alt="image" src="https://github.com/user-attachments/assets/b5bf517b-72b3-4273-a1e3-3d732067a780" />
 <br/> 
