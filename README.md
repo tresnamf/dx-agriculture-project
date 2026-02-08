@@ -30,7 +30,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - :~ $ sudo reboot
 - :~ $ sudo i2cdetect -y 1
 <br/> <img width="403" height="142" alt="Screenshot 2026-02-08 at 11 36 59" src="https://github.com/user-attachments/assets/180a47e0-759b-4c40-b927-1d3eb0ee705a" />
-<br/> Note: I2C aktif, sensor terdeteksi, 0x44 is the I2C address of the SHT3X / SHT31D sensor.
+<br/> Note: The output terminal show that I2C interface is active and the sensor is detected, while 0x44 is the I2C address of the SHT3X / SHT31D sensor.
 
 #### 2. Flash Raspberry Pi
 - Prepare a microSD card (at least 16GB is recommended) and a card reader.
