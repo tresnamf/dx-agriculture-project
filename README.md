@@ -100,9 +100,13 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <br/><img width="862" height="628" alt="Screenshot 2026-02-08 at 15 44 26" src="https://github.com/user-attachments/assets/f2493637-b201-4e74-a3d3-a73f3d890b04" />
 - Click imported dashboard, it will be redirected to dashboard project
 - Please configure first the database connection, navigate to Home > Connections > Data Sources > Add new data sources > Select SQLite and filling the field below
-<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 50 51" src="https://github.com/user-attachments/assets/3f165c5b-2628-43f2-906a-3e5e95330012" />
-
-
-
+<br/><img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 50 51" src="https://github.com/user-attachments/assets/3f165c5b-2628-43f2-906a-3e5e95330012" />
+- Navigate to dashboard project, Grafana will display below
+- Environmental Condition & Plant Growth Summary
+<br/> <img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 53 59" src="https://github.com/user-attachments/assets/a9764052-44dc-44e7-8c74-6e6665151297" />
+- Trend Over 10 Days
+<br/> <img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 54 33" src="https://github.com/user-attachments/assets/634dddae-39ae-4421-9c54-ff04c264ac48" />
+- Correlation Analysis
+<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 55 03" src="https://github.com/user-attachments/assets/fa0fddf9-2f14-45cd-8ee1-47cafb254456" />
 
 
