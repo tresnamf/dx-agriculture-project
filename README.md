@@ -33,23 +33,26 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <br/> Note: The output terminal show that I2C interface is active and the sensor is detected, while 0x44 is the I2C address of the SHT3X / SHT31D sensor.
 
 #### 2. Flash Raspberry Pi
-- Prepare a microSD card (at least 16GB is recommended) and a card reader.
+- Prepare a microSD card (at least 16GB is recommended) and a card reader
 - Download Raspberry Pi Imager (according to your PC operating system): https://www.raspberrypi.com/software/
-- Run Raspberry Pi Imager.
-- Open the Imager: launch the application and select "Choose OS" to choose the operating system.
-- Select Storage: click "Choose Storage" and select your microSD card.
-- Click "Write" to start the flashing process and wait until verification is completed.
-- After completion, remove the microSD card and insert it into the Raspberry Pi 4 for the first boot.
+- Run Raspberry Pi Imager
+- Open the Imager: launch the application and select "Choose OS" to choose the operating system
+- Select Storage: click "Choose Storage" and select your microSD card
+- Click "Write" to start the flashing process and wait until verification is completed
+- After completion, remove the microSD card and insert it into the Raspberry Pi 4 for the first boot
 
 #### 3. Memeriksa Python environment dan install library in Raspberry Pi
-- Secara default, Raspberry Pi OS sudah ter-install Python.
+- By default, Raspberry Pi OS comes with Python pre-installed.
 - Open terminal, type:~ $ python3 --version
-- Output menampilkan versi Python yang digunakan:~ $ Python 3.x.x
+- The output will display the Python version in use, for example:~ $ Python 3.x.x
 - Download project repository:~ $ git clone https://github.com/tresnamf/dx-agriculture-project.git
 - :~ $ cd dx-agriculture-project
 - :~ $ sudo python3 -m venv myenv
 - :~ $ source myenv/bin/activate
-
+<br/> <img width="563" height="363" alt="Screenshot 2026-02-08 at 13 11 13" src="https://github.com/user-attachments/assets/6850c4dd-3c4c-48b8-b23a-ec1bf9fa7ae3" />
+- Open new tab browser, then type: http://localhost:5000
+<img width="1425" height="848" alt="Screenshot 2026-02-08 at 13 12 40" src="https://github.com/user-attachments/assets/cad1995e-2936-46e4-816a-82bca2e3da53" />
+- 
 
 #### 3. Building Web-based Automatic Sensor Logger for Experimental Monitoring
 
