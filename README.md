@@ -18,7 +18,9 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <b> Experimental Scenario </b> <br/>
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/eaf72188-9077-4f6c-8a9d-3e425dd184c5" />
 
-
+<b> Experimental Setup </b> <br/>
+<b> 1. Sensor Connections </b> <br/>
+<img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" />
 
 
 
