@@ -95,7 +95,10 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Install SQLite plugin, type:~ $ grafana-cli plugins install frser-sqlite-datasource
 - Check the installed plugin, Open menu > Plugins and data > Plugins
 <img width="800" height="500" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
-- 
+- Please navigate to http://localhost:3000/dashboards > New > Import
+- Drag and drop **PlantGrowthViz-1770467082684.json** to Grafana's import dashboard
+<img width="862" height="628" alt="Screenshot 2026-02-08 at 15 44 26" src="https://github.com/user-attachments/assets/f2493637-b201-4e74-a3d3-a73f3d890b04" />
+
 
 
 
