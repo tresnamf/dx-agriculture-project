@@ -22,7 +22,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 
 #### 1. Sensor Connections
 <img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" /> <br/>
-- Buka terminal, ketik :~ $ sudo apt update
+- Open terminal, type :~ $ sudo apt update
 - :~ $ sudo apt install -y i2c-tools
 - :~ $ sudo raspi-config
 - Interface Options → I2C → Enable
@@ -30,6 +30,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - :~ $ sudo reboot
 - :~ $ sudo i2cdetect -y 1
 <br/> <img width="403" height="142" alt="Screenshot 2026-02-08 at 11 36 59" src="https://github.com/user-attachments/assets/180a47e0-759b-4c40-b927-1d3eb0ee705a" />
+<br/> Note: I2C aktif, sensor terdeteksi, 0x44 is the I2C address of the SHT3X / SHT31D sensor.
 
 #### 2. Flash Raspberry Pi
 - Prepare a microSD card (at least 16GB is recommended) and a card reader.
