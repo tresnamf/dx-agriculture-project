@@ -48,7 +48,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 
 #### 4. Building Web-based Automatic Sensor Logger for Experimental Monitoring
 
-![diagram-iot-dx-agri (1)](https://github.com/user-attachments/assets/b972c1fb-d3b0-4fe1-853e-2387e43df8d3)
+![diagram-iot-dx-agri (1)](https://github.com/user-attachments/assets/72ac5ae4-e831-4d83-a845-e09eae95133a)
 
 
 - Download project repository:~ $ git clone https://github.com/tresnamf/dx-agriculture-project.git
@@ -66,8 +66,18 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Wait for the GUI to appear > select menu **Open Database** > browse and select the project database named: **dx_agri_project.sql3**
 <br/><img width="1063" height="711" alt="Screenshot 2026-02-08 at 13 30 57" src="https://github.com/user-attachments/assets/b35ed80f-7ff8-452e-8f94-ec0f9efa24cb" />
 - Also make sure to adjust the database path location (*.sql3) in Python code **db_path=**, which is specified in both _app.py_ and _observation_routes.py_.
-- Test the system by filling out the field of **Day of Experiment, Observation Time, Treatment, and Recording Duration**, then click button **Start** and wait until the recording process is completed.
+- Test the system by filling the field of **Day of Experiment, Observation Time, Treatment, and Recording Duration**, then click button **Start** and wait until the recording process is completed.
 
+#### 5. Building Web-based Plant Growth Observation System
+
+![diagram-iot-dx-agri2](https://github.com/user-attachments/assets/57d877cd-fe8d-4c98-a974-a54907f7bd52)
+
+- Please navigate to http://localhost/observation
+- User allows to add,insert,edit, dan delete observation data
+- Users can add new observation data by filling in the fields  **Height (cm), Day of Experiment, Observation Time, Treatment, dan Notes**
+<br/> <img width="1425" height="857" alt="Screenshot 2026-02-08 at 14 30 30" src="https://github.com/user-attachments/assets/c547326c-6a15-44d3-b4ed-b7ebf086f8bd" />
+- Users can also edit previously entered observation data
+<img width="1425" height="857" alt="Screenshot 2026-02-08 at 14 32 45" src="https://github.com/user-attachments/assets/ca21b1f4-df95-4b05-8cb3-56a83b038d08" />
 
   
 
