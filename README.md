@@ -24,13 +24,14 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 <img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" />
 
 ### 2. Flash Raspberry Pi 4
-#### a. Prepare a microSD card (at least 16GB is recommended) and a card reader.
-#### b. Download Raspberry Pi Imager (according to your PC operating system): https://www.raspberrypi.com/software/
-#### c. Run Raspberry Pi Imager.
-#### d. Open the Imager: launch the application and select **"Choose OS"** to choose the operating system (Raspberry Pi OS or others).
-#### e. Select Storage: click **"Choose Storage"** and select your microSD card.
-#### f. Click **"Write"** to start the flashing process. Wait until the verification is completed.
-#### g. After the process is finished, remove the microSD card and insert it into the Raspberry Pi 4 for the first boot.
+- Prepare a microSD card (at least 16GB is recommended) and a card reader.
+- Download Raspberry Pi Imager (according to your PC operating system): https://www.raspberrypi.com/software/
+- Run Raspberry Pi Imager.
+- Open the Imager: launch the application and select "Choose OS" to choose the operating system.
+- Select Storage: click "Choose Storage" and select your microSD card.
+- Click "Write" to start the flashing process and wait until verification is completed.
+- After completion, remove the microSD card and insert it into the Raspberry Pi 4 for the first boot.
+
 
 
 
