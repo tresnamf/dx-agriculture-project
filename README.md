@@ -90,11 +90,11 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Install Grafana, type:~ $ sudo apt install grafana -y
 - Start Grafana service, type:~ $ sudo systemctl start grafana-server
 - Open new tab browser: navigate to http://localhost:3000
-<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 38 30" src="https://github.com/user-attachments/assets/fff6a52b-8c65-4c6a-8d2f-f9d26b68f3c3" />
+<img width="800" height="500" alt="Screenshot 2026-02-08 at 15 38 30" src="https://github.com/user-attachments/assets/fff6a52b-8c65-4c6a-8d2f-f9d26b68f3c3" />
 
 - Install SQLite plugin, type:~ $ grafana-cli plugins install frser-sqlite-datasource
 - Check the installed plugin, Open menu > Plugins and data > Plugins
-<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
+<img width="800" height="500" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
 - 
 
 
