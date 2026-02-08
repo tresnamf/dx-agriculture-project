@@ -81,10 +81,21 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 
 #### 6. Analyzing and Visualizing Sensor and Plant Growth using Grafana
 
+- Install basic dependency, type: ~ $sudo apt install -y apt-transport-https software-properties-common wget
+- Grafana GPG key for official packet verification, type:~ $ sudo mkdir -p /etc/apt/keyrings
+  wget -q -O - https://apt.grafana.com/gpg.key | \
+  gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
+- Add Grafana repository, type:~ $ echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | \
+  sudo tee /etc/apt/sources.list.d/grafana.list
+- Install Grafana, type:~ $ sudo apt install grafana -y
+- Start Grafana service, type:~ $ sudo systemctl start grafana-server
+- Open new tab browser: navigate to http://localhost:3000
+<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 38 30" src="https://github.com/user-attachments/assets/fff6a52b-8c65-4c6a-8d2f-f9d26b68f3c3" />
 
-
-  
-
+- Install SQLite plugin, type:~ $ grafana-cli plugins install frser-sqlite-datasource
+- Check the installed plugin, Open menu > Plugins and data > Plugins
+<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 39 18" src="https://github.com/user-attachments/assets/307990c2-712d-430e-8ed6-f3bfbeff95cd" />
+- 
 
 
 
