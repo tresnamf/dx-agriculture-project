@@ -45,16 +45,21 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - By default, Raspberry Pi OS comes with Python pre-installed.
 - Open terminal, type:~ $ python3 --version
 - The output will display the Python version in use, for example:~ $ Python 3.x.x
+
+#### 4. Building Web-based Automatic Sensor Logger for Experimental Monitoring
 - Download project repository:~ $ git clone https://github.com/tresnamf/dx-agriculture-project.git
 - :~ $ cd dx-agriculture-project
 - :~ $ sudo python3 -m venv myenv
 - :~ $ source myenv/bin/activate
+- :~ $ pip install flask
+- :~ $ pip install adafruit-circuitpython-sht31d
+- :~ $ python3 app.py
 <br/> <img width="563" height="363" alt="Screenshot 2026-02-08 at 13 11 13" src="https://github.com/user-attachments/assets/6850c4dd-3c4c-48b8-b23a-ec1bf9fa7ae3" />
 - Open new tab browser, then type: http://localhost:5000
 <img width="1425" height="848" alt="Screenshot 2026-02-08 at 13 12 40" src="https://github.com/user-attachments/assets/cad1995e-2936-46e4-816a-82bca2e3da53" />
 - 
 
-#### 3. Building Web-based Automatic Sensor Logger for Experimental Monitoring
+
 
 
 
