@@ -107,15 +107,24 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Trend Over 10 Days
 <br/> <img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 54 33" src="https://github.com/user-attachments/assets/634dddae-39ae-4421-9c54-ff04c264ac48" />
 - Correlation Analysis
-<img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 55 03" src="https://github.com/user-attachments/assets/fa0fddf9-2f14-45cd-8ee1-47cafb254456" />
+<br/> <img width="1425" height="857" alt="Screenshot 2026-02-08 at 15 55 03" src="https://github.com/user-attachments/assets/fa0fddf9-2f14-45cd-8ee1-47cafb254456" />
 
+<br/> 
+<br/> 
 
+=============================================
+<br/> 
 <img width="220" height="67" alt="image" src="https://github.com/user-attachments/assets/b5bf517b-72b3-4273-a1e3-3d732067a780" />
 Tresna Maulana Fahrudin
+<br/> 
 PhD Student
+<br/> 
 Graduate School of Environmental, Life, Natural Science and Technology
+<br/> 
 Division of Environmental, Life, Natural Science and Technology
+<br/> 
 Information and Communication Systems Course
+<br/> 
 Distributed System Design Laboratory
 
 
