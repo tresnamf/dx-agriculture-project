@@ -41,11 +41,12 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 - Click "Write" to start the flashing process and wait until verification is completed.
 - After completion, remove the microSD card and insert it into the Raspberry Pi 4 for the first boot.
 
-### 3. Memeriksa Python environment in Raspberry Pi
+#### 3. Memeriksa Python environment dan install library in Raspberry Pi
 - Secara default, Raspberry Pi OS sudah ter-install Python.
-- Buka terminal, ketik
-```bash
-python3 --version
+- Open terminal, type:~ $ python3 --version
+- Output menampilkan versi Python yang digunakan:~ $ Python 3.x.x
+- Buat direktori :~ $ mkdir iot_project_respi
+- 
 
 
 #### 3. Building Web-based Automatic Sensor Logger for Experimental Monitoring
