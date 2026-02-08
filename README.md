@@ -21,7 +21,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 ### Experimental Setup </b> <br/>
 
 #### 1. Sensor Connections
-- <img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" />
+<img width="524" height="361" alt="image" src="https://github.com/user-attachments/assets/a3d38a81-353f-4be1-9cd5-005598ef16e8" />
 - Buka terminal, ketik :~ $ sudo apt update
 - :~ $ sudo apt install -y i2c-tools
 - :~ $ sudo raspi-config
