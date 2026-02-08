@@ -8,7 +8,7 @@ To support optimal mung bean sprout growth, it is necessary to monitor air tempe
 <img width="722" height="226" alt="image" src="https://github.com/user-attachments/assets/fd98f70c-a5d4-4dd9-8adf-bdefe96b0f77" />
 
 <b> Required Equipment and Environment </b> <br/>
-<img width="730" height="410" alt="image" src="https://github.com/user-attachments/assets/caa34eac-b181-437c-b08b-4f154e4dd270" />
+<img width="730" height="226" alt="image" src="https://github.com/user-attachments/assets/caa34eac-b181-437c-b08b-4f154e4dd270" />
 
 
 
