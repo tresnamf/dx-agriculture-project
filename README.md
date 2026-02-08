@@ -35,7 +35,7 @@ Development of an IoT-Based Web Application for Monitoring Temperature and Humid
 ### 3. Memeriksa Python environment in Raspberry Pi
 - Secara default, Raspberry Pi OS sudah ter-install Python.
 - Buka terminal, ketik
-```md
+```bash
 python3 --version
 
 
